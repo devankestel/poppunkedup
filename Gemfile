@@ -26,6 +26,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 #Puma for a better server experience
 gem 'puma', '~> 2.0'
 
+#Slim for templating
+gem 'slim', '~> 3.0'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
