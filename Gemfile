@@ -26,6 +26,15 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 #Puma for a better server experience
 gem 'puma', '~> 2.0'
 
+#Add foreman to work with Heroku proc file
+gem 'foreman'
+
+#Add bourbon, neat, bitters, and refills for an easier grid
+gem 'bourbon', '~> 4.0'
+gem 'neat', '~> 1.0'
+gem 'bitters', '~> 1.0'
+gem 'refills'
+
 #Slim for templating
 gem 'slim', '~> 3.0'
 
