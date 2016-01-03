@@ -1,0 +1,21 @@
+Artist has_many :originals, has_many :covers
+ * first_name:string
+ * last_name:string
+
+Year has_many :originals, has_many :covers
+ * year:integer
+
+Original has_many :covers, belongs_to :artist, belongs_to :year
+ * artist_id:integer
+ * year_id:integer
+ * title:string
+
+Cover belongs_to :original, has_many :links, belongs_to :artist, belongs_to :year
+ * artist_id:integer
+ * year_id:integer
+ * category: string (optional)
+
+Link belongs_to :cover
+
+ * category (ex: YouTube, Spotify, iTunes, etc.)
+ * url:string

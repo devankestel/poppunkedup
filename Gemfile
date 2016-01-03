@@ -43,6 +43,9 @@ gem 'refills'
 #Slim for templating
 gem 'slim', '~> 3.0'
 
+#Formtastic for prettier forms
+gem 'formtastic', '~> 3.0'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -54,7 +57,7 @@ gem 'slim', '~> 3.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug'
+  gem 'pry'
 end
 
 group :development do
