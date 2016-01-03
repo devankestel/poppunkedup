@@ -27,23 +27,23 @@ gem 'active_model_serializers', '~> 0.9.3'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-#Puma for a better server experience
+# Puma for a better server experience
 gem 'puma', '~> 2.0'
 
-#Add foreman to work with Heroku proc file
+# Add foreman to work with Heroku proc file
 gem 'foreman'
 
 
-#Add bourbon, neat, bitters, and refills for an easier grid
+# Add bourbon, neat, bitters, and refills for an easier grid
 gem 'bourbon', '~> 4.0'
 gem 'neat', '~> 1.0'
 gem 'bitters', '~> 1.0'
 gem 'refills'
 
-#Slim for templating
+# Slim for templating
 gem 'slim', '~> 3.0'
 
-#Formtastic for prettier forms
+# Formtastic for prettier forms
 gem 'formtastic', '~> 3.0'
 
 # Use ActiveModel has_secure_password
@@ -58,9 +58,12 @@ gem 'formtastic', '~> 3.0'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'pry'
-  #Rspec for testing
+  # Rspec for testing
   gem 'rspec-rails', '~>3.0'
+  # Capybara for integration tests
   gem 'capybara', '~> 2.0'
+  # FactoryGirl for generating test factories
+  gem 'factory_girl_rails', '~>4.0'
 end
 
 group :development do
