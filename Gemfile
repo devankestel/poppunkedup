@@ -60,6 +60,7 @@ group :development, :test do
   gem 'pry'
   #Rspec for testing
   gem 'rspec-rails', '~>3.0'
+  gem 'capybara', '~> 2.0'
 end
 
 group :development do
