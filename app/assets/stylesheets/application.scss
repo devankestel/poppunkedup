@@ -2,9 +2,3 @@
 @import "base/base";
 @import "neat/neat";
 
-h1{
-  @include span-columns(6);
-}
-p{
-  @include span-columns(6);
-}

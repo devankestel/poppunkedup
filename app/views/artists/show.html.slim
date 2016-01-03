@@ -1,1 +1,18 @@
 h1 =@artist.full_name
+h2 Original Artist
+
+section
+  ul
+    li =link_to 'Edit Artist Details', '#'
+    li =link_to 'Add Artist Original', '#'
+    li =link_to 'Add Artist Cover', '#'
+
+section
+h3 ="Covers of #{@artist.full_name} Songs"
+h3 dropdown sort 
+ul
+  li First Song
+  li Second Song
+  li Third Song
+h3 Pagination links 1, 2, 3, 4, etc.
+
