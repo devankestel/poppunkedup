@@ -1,28 +1,8 @@
-== README
+# Pop Punked Up README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## About
+Pop Punked up is a database cataloguing pop punk covers of mainstream pop songs. It is a Rails 4.2 App and is still under development. 
 
-Things you may want to cover:
+## Setup
+Feel free to clone and `bundle install` if you are so inclined. So far, only partial CRUD actions for the admin are implemented, but you can either browse through their implementation in localhost or peruse the integration test suite by running RSpec files in the `spec/features` directory.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
